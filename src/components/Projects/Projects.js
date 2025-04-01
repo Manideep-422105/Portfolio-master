@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import image from "../../Assets/Projects/image.png";
+import sql from "../../Assets/Projects/download.png";
+import rhyno from "../../Assets/Projects/Rhynologo.png";
+import logo from "../../Assets/Projects/Icon.png";
+import react from "../../Assets/Projects/react.png";
 
 function Projects() {
   return (
@@ -23,23 +24,23 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={image}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Study Notion"
+              description="StudyNotion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS."
+              ghLink="https://github.com/Manideep-422105/Study-Notion"
+              // demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={logo}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="PGfy"
+              description="PGfy is a Property Management System designed for PG owners to efficiently manage their properties and for tenants to easily find and book accommodations.Built using React Native , Node.js and Postgresql as the database."
+              ghLink="https://github.com/Manideep-422105/PGfy"
+              // demoLink=""
             />
           </Col>
 
@@ -47,44 +48,46 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="College Grievance Cell"
+              description="A web application designed to facilitate the grievance redressal process in educational institutions. It allows students to submit grievances, which are then reviewed and addressed by the college administration. The application is built using React.js and Node.js."
+              ghLink="https://github.com/Manideep-422105/College-Grievance-Cell"
+              // demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={sql}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Sql Visualizer"
+              description="An interactive data visualization and table management application built using React.js.
+                           This project provides features such as drag-and-drop column reordering, sorting, filtering, CSV export, data visualization, and PNG download."
+              ghLink="https://github.com/Manideep-422105/Internship-Task"
+              demoLink="https://atlan-task-pi.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={rhyno}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Rhyno EV"
+              description=" Designed and Implemented a dynamic, visually appealing web page for RHYNO EV,
+                            creating an intuitive platform for customers to explore and purchase electric bikes. The project included an interactive
+                            product gallery with customizable color options."
+              ghLink="https://github.com/Manideep-422105/frontend_RhynoEV"
+              // demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={react}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="React based Projects"
+              description="A collection of various projects built using React.js, showcasing different functionalities and designs."
+              ghLink="https://github.com/Manideep-422105/React_Projects"
+              // demoLink=""      
             />
           </Col>
         </Row>

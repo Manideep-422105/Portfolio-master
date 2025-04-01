@@ -26,7 +26,7 @@ export default function Example() {
           Days I <strong className="purple">Code in LeetCode</strong>
         </h1>
         <LeetCodeCalendar
-          username='Manideep_17072004' 
+          username='Manideep_1707' 
           blockSize={15} 
           blockMargin={5} 
           fontSize={16} 
