@@ -31,7 +31,7 @@ export default function Example() {
           blockMargin={5} 
           fontSize={16} 
           theme={exampleTheme} 
-          style={{ maxWidth: '1100px' ,marginLeft:'40px'}} 
+          // style={{ maxWidth: '1100px' ,marginLeft:'40px'}} 
         />
       </Row>
     )
