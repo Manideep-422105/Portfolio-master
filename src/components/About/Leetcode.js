@@ -3,22 +3,24 @@ import { Row } from "react-bootstrap";
 import React from "react";
 
 export default function Example() {
-    const exampleTheme = {
-      light: [
-        'rgb(235, 235, 235)',
-        'rgba(192, 132, 245, 0.44)',
-        'rgba(192, 132, 245, 0.6)',
-        'rgba(192, 132, 245, 0.76)',
-        'rgba(192, 132, 245, 0.92)',
-      ],
-      dark: [
-        'rgb(235, 235, 235)',
-        'rgba(192, 132, 245, 0.44)',
-        'rgba(192, 132, 245, 0.6)',
-        'rgba(192, 132, 245, 0.76)',
-        'rgba(192, 132, 245, 0.92)',
-      ],
-    }
+  const exampleTheme = {
+    light: [
+      'rgb(235, 235, 235)',
+      'rgba(192, 132, 245, 0.44)',
+      'rgba(192, 132, 245, 0.6)',
+      'rgba(192, 132, 245, 0.76)',
+      'rgba(192, 132, 245, 0.92)',
+    ],
+    dark: [
+      'rgb(235, 235, 235)',
+      'rgba(192, 132, 245, 0.44)',
+      'rgba(192, 132, 245, 0.6)',
+      'rgba(192, 132, 245, 0.76)',
+      'rgba(192, 132, 245, 0.92)',
+    ],
+  }
+  
+  
   
     return (
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
